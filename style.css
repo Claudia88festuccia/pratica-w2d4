@@ -1,0 +1,132 @@
+
+
+
+
+.header-container {
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: rgb(240, 235, 229);
+
+}
+
+.icona-medium {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    margin-top: 25px;
+}
+
+.medium-logo {
+    width: 180px;
+    height: 100px;
+    margin: 5px;
+    margin-top: -5px;
+}
+
+.top-icons {
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-left: 1500px;
+    margin-top: -50px;
+    gap: 15px;
+}
+
+.notizie {
+    margin-top: -1px;
+    
+}
+
+
+main nav {
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.super-container {
+    display: flex;     
+    flex-direction: row;    
+    justify-content: space-between;  
+    
+
+}
+#main-container {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: auto;
+    gap: 20px;
+    border: 1px solid rgb(151, 147, 147);
+    align-content: flex-start;
+   
+}
+
+.card-container {
+   display: flex;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+
+}
+.card {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+.card img {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.testo-card {
+   padding: 20px;
+   flex: 1;
+} 
+#aside-container {
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+     border: 1px solid rgb(151, 147, 147);
+     align-content: flex-end
+     
+     
+ }
+ 
+ .aside {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+ }
+ .icona-medium2 {
+    
+    width: 30px;
+    height: 30px;
+    margin-left: 150px;
+ }
+ 
+
+  .icon-container {
+   
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .icon-container span {
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 2px;
+    padding: 6px 16px;
+    border: 1px solid rgb(143, 137, 137);
+    color: rgba(117, 117, 117, 1);
+    margin-bottom: 8px;
+    margin-right: 8px;
+    
+  }
+  ion-icon {
+    font-size: 50px; 
+      margin-right: 10px;
+  } 
